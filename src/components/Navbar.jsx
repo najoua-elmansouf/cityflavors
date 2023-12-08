@@ -1,19 +1,23 @@
 import React from 'react';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../style/navbar.css'
+import logo from '../images/logo.png';
 function Navbar(){
     return(
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav className="navbar navbar-expand-lg nav">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="#">
+                <img src={logo} alt="logo" style={{ width : '150px',height :'100px'}}/>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">Features</a>
-                        <a class="nav-link" href="#">Pricing</a>
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                <div className="collapse navbar-collapse ville-container" id="navbarNavAltMarkup" >
+                    <div className="navbar-nav ville" >
+                        <a className="nav-link active " aria-current="page" href="#" style={{color : 'white'}}>Casablanca</a>
+                        <a className="nav-link active" aria-current="page" href="#" style={{color : 'white'}}>Marrackech</a>
+                        <a className="nav-link active" aria-current="page" href="#" style={{color : 'white'}}>Rabat</a>
+                        <a className="nav-link active" aria-current="page" href="#" style={{color : 'white'}}>Tanger</a>
                     </div>
                 </div>
             </div>
