@@ -1,18 +1,13 @@
 import './App.css';
-import slider from './components/slider';
+import Slider from './components/Slider';
 
 
 function App() {
   return (
-<<<<<<< HEAD
-    <div>
-      <slider />
-      
-    </div>
-=======
     <>
+      <Slider />
+      
     </>
->>>>>>> 8fec91b38cdc1a4e08c86bc3c56c2867fa9e7f9e
   );
 }
 
