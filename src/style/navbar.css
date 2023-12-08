@@ -1,0 +1,10 @@
+.nav{
+    background-color: #990909;
+}
+.ville-container{
+    justify-content : flex-end;
+    padding-right : 20px;
+}
+.ville{
+    gap : 50px;
+}
