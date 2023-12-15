@@ -1,0 +1,41 @@
+.cultureContainer{
+    padding : 6%;
+    box-shadow: 0 4px 8px whitesmoke; /* syntax: box-shadow: h-offset v-offset blur spread color; */
+    transition: transform 0.3s ease-in-out;
+    background-color: rgba(92, 149, 92, 0.532);
+}
+.cultureSubContainer{
+    padding : 5%;
+    display: flex;
+    gap:10%;
+    background-color: rgba(92, 149, 92, 0.532);
+    
+    border-radius: 16px;
+}
+
+.cultureSubContainer img{
+    width : 40%;
+    border-radius: 16px;
+}
+.cultureSubContainer p {
+    color : white;
+    flex: 1;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+  }
+  .cultureSubContainer p h1{
+    text-align: center;
+  }
+.header{
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    color : #990909;
+    justify-content: center;
+    height : 20vh;
+    font-size:x-large;
+    font-weight: bold;
+    box-shadow: 0 4px 8px whitesmoke; /* syntax: box-shadow: h-offset v-offset blur spread color; */
+    transition: transform 0.3s ease-in-out;
+}

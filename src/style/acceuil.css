@@ -1,0 +1,8 @@
+.redBar {
+    border: none;
+    background : red;
+    height: 1px; 
+    width :60%;/* Ajuste cette valeur selon l'espacement que tu veux avoir entre les éléments */
+    margin: 20px auto; /* Ajuste cette valeur pour contrôler l'espacement autour de la barre */
+  }
+  

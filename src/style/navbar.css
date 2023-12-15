@@ -1,5 +1,5 @@
 .nav{
-    background-color: #990909;
+    background-color: whitesmoke;
 }
 .ville-container{
     justify-content : flex-end;
@@ -8,3 +8,4 @@
 .ville{
     gap : 50px;
 }
+

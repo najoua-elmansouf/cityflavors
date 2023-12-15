@@ -1,0 +1,32 @@
+{
+    "tanjia" :{
+        "nom" : "Tanjia",
+        "image" : "path de l image",
+        "ingredient" : "Ce plat traditionnel de Marrakech est préparé avec de l'agneau, des épices (comme le cumin, le safran, et le gingembre), de l'ail, du beurre clarifié, des citrons confits et parfois des olives."
+    },
+    "chebakia" :{
+        "nom" : "Chebakia",
+        "image" : "path de l image",
+        "ingredient" : "Les chebakias sont des pâtisseries en forme de fleur frites puis trempées dans du miel aromatisé à la fleur d'oranger et parsemées de graines de sésame. Elles sont principalement composées de farine, d'eau de fleur d'oranger, de graines de sésame et de miel."
+    },
+    "mechoui" :{
+        "nom" : "Mechoui",
+        "image" : "path de l image",
+        "ingredient" : "Les chebakias sont des pâtisseries en forme de fleur frites puis trempées dans du miel aromatisé à la fleur d'oranger et parsemées de graines de sésame. Elles sont principalement composées de farine, d'eau de fleur d'oranger, de graines de sésame et de miel."
+    },
+    "jus" :{
+        "nom" : "Jus",
+        "image" : "path de l image",
+        "ingredient" : "Chacun de ces jus est préparé avec des fruits frais, pressés ou mixés pour en extraire les saveurs naturelles et est souvent servi sans ajout d'ingrédients artificiels pour conserver leur authenticité." 
+    },
+    "escargot" :{
+        "nom" : "Escargots",
+        "image" : "path de l image",
+        "ingredient" : "Les escargots sont cuisinés avec du beurre, de la coriandre, du persil, de l'ail, parfois des épices comme le paprika et le cumin, le tout cuit à feu doux pour obtenir une saveur riche et épicée."
+    },
+    "khlii" :{
+        "nom" : "Khlii",
+        "image" : "path de l image",
+        "ingredient" : "Le khlii est de la viande séchée, généralement du bœuf ou de l'agneau, marinée dans des épices telles que le cumin, le paprika, l'ail et parfois du poivre, puis séchée au soleil avant d'être conservée dans du gras fondu."
+    }
+}
