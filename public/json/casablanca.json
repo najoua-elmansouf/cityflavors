@@ -1,0 +1,32 @@
+{
+    "tajine" : {
+        "nom":"Tajine",
+        "image":"./donnee_react/repas_casablanca/tajine.jpg",
+        "ingredient":"Le Tajine, joyau de la cuisine marocaine, se compose d'une symphonie d'ingrédients méticuleusement combinés pour créer une expérience gustative exquise. La base du plat comprend généralement des morceaux de viande tendre, tels que l'agneau, le poulet ou le bœuf, associés à un assortiment de légumes comme les carottes, les pommes de terre, les poivrons et les courgettes. Les épices, tels que le cumin, le safran, le gingembre et la coriandre, confèrent au Tajine sa profondeur de saveur distinctive. Des fruits secs, comme les abricots ou les pruneaux, et des olives peuvent être ajoutés pour une note sucrée ou salée. Cuit lentement dans son récipient en terre cuite éponyme, le Tajine est une fusion magique de textures et de parfums qui célèbre l'héritage culinaire riche du Maroc. Bon appétit !"
+    },
+    "couscous" : {
+        "nom":"Couscous",
+        "image":"./donnee_react/repas_casablanca/couscous.jpg",
+        "ingredient":"Le couscous marocain, délice culinaire emblématique, marie finement des grains de couscous avec une viande tendre (agneau, poulet ou bœuf), des légumes variés, des épices riches (cumin, coriandre, curcuma, gingembre, poivre noir, safran), de l'huile d'olive, des oignons, de l'ail, des tomates, et des raisins secs pour une touche sucrée. Cuit à la vapeur au-dessus d'un bouillon parfumé, ce plat dévoile une explosion de saveurs, agrémenté de menthe et de coriandre fraîches en garniture. Une célébration authentique de la cuisine marocaine. Bon appétit !"
+    },
+    "hrira" : {
+        "nom":"Hrira",
+        "image":"./donnee_react/repas_casablanca/hrira.jpg",
+        "ingredient":"La Hrira, une soupe marocaine réconfortante, combine des ingrédients savoureux pour créer une expérience gustative riche. Cette soupe épicée à base de lentilles, de pois chiches, de tomates, et de céleri, est agrémentée d'une variété d'épices telles que le curcuma, le gingembre, le cumin, et la coriandre, qui ajoutent une profondeur de saveur caractéristique. La viande d'agneau ou de poulet apporte une texture tendre, tandis que le mélange de persil et de coriandre frais ajoute une note herbacée et fraîche. Une pincée de harissa peut être ajoutée pour un coup de piquant. La Hrira incarne la tradition culinaire marocaine avec ses saveurs complexes et son caractère réconfortant. Bon appétit !"
+    },
+    "chfanj" : {
+        "nom":"Chfanj",
+        "image":"./donnee_react/repas_casablanca/chfanj.jpeg",
+        "ingredient":"Le Chfenj, délice sucré de la cuisine marocaine, se compose d'ingrédients simples mais soigneusement équilibrés. La pâte légère est créée en mélangeant de la farine, du sucre, de la levure, et une pincée de sel, puis en ajoutant de l'eau pour obtenir la consistance parfaite. Cette pâte est ensuite frite à la perfection, créant des beignets dorés et moelleux. En finition, une généreuse saupoudrée de sucre en poudre donne une touche sucrée irrésistible. Les Chfenj, souvent dégustés avec du thé à la menthe, sont une gourmandise prisée au Maroc, combinant simplicité et délice. Bon appétit !"
+    },
+    "thonhror" : {
+        "nom":"Thon et hror",
+        "image":"./donnee_react/repas_casablanca/thonhror.jpg",
+        "ingredient":"Le Tuna and Hror, une délicatesse marocaine, fusionne habilement le thon avec le Hror, une sauce épicée incontournable. Les ingrédients clés comprennent du thon frais ou en conserve, préparé avec soin pour garantir la tendresse. La sauce Hror est élaborée avec des tomates fraîches, des poivrons, des oignons, de l'ail, et une palette d'épices exquises, telles que le cumin, le paprika, et le piment, créant une explosion de saveurs. C'est la rencontre parfaite entre le goût riche du thon et la vivacité épicée du Hror, offrant une expérience culinaire marocaine exceptionnelle. Bon appétit !"
+    },
+    "rfisa" : {
+        "nom":"Rfisa",
+        "image":"./donnee_react/repas_casablanca/rfisa.jpg",
+        "ingredient":"La Rfissa, un plat marocain empreint de tradition, réunit des ingrédients soigneusement sélectionnés pour une expérience culinaire mémorable. Le plat est centré autour du fenugrec, une herbe distincte qui donne à la Rfissa sa saveur caractéristique. On y ajoute du poulet, des lentilles, des oignons, et des épices telles que le curcuma, le gingembre, et le poivre noir, créant une harmonie délicate de goûts et de textures. Le tout est ensuite servi sur un lit de msemen ou de pain finement préparé, apportant une dimension supplémentaire à cette spécialité marocaine. La Rfissa incarne l'art de la cuisine marocaine avec ses saveurs riches et ses combinaisons uniques d'ingrédients. Bon appétit !"
+    }
+}
