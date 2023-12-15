@@ -7,7 +7,7 @@ const Acceuil = () => {
   return (
     <>
       <Slider />
-      <div className="header">Découvrez nos villes</div>
+      <div className="header" style={{color:'#990909',backgroundColor:'whitesmoke'}}>Découvrez nos villes</div>
       <Culture ville="casablanca"/>
       <Culture ville="marrackech"/>
       <Culture ville="rabat"/>
