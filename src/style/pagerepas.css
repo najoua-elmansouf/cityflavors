@@ -1,10 +1,10 @@
-.cultureContainer{
+.repasContainer{
     padding : 6%;
     box-shadow: 0 4px 8px whitesmoke; /* syntax: box-shadow: h-offset v-offset blur spread color; */
     transition: transform 0.3s ease-in-out;
     background-color: rgba(92, 149, 92, 0.532);
 }
-.cultureSubContainer{
+.repasSubContainer{
     padding : 5%;
     display: flex;
     gap:10%;
@@ -13,17 +13,21 @@
     border-radius: 16px;
 }
 
-.cultureSubContainer img{
+.repasSubContainer img{
     width : 40%;
     border-radius: 16px;
 }
-.cultureSubContainer p {
+.repasSubContainer p {
     color : white;
     flex: 1;
     font-size: 16px;
     line-height: 1.6;
     margin: 0;
   }
-  .cultureSubContainer p h1{
+.repasSubContainer p h1{
     text-align: center;
+  }
+  .texte{
+    display :flex;
+    align-items: center;
   }

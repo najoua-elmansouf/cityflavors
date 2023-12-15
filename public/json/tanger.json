@@ -6,27 +6,27 @@
     },
     "paella" :{
         "nom" : "Paella",
-        "image" : "./donnee_react/repas_tanger/paella.jpg",
+        "image" : "../../donnee_react/repas_tanger/paella.jpg",
         "ingredient" : "Originaire d'Espagne, la paella est un plat à base de riz cuit avec du safran, du poulet, des fruits de mer comme les crevettes et les moules, parfois du chorizo et une variété de légumes. C'est un plat coloré et savoureux, cuit dans une grande poêle peu profonde."
     },
     "tajinesardine" :{
         "nom" : "Tajine de sardine",
-        "image" : "./donnee_react/repas_tanger/tajinesardine.jpg",
+        "image" : "../../donnee_react/repas_tanger/tajinesardine.jpg",
         "ingredient" : "Ce plat marocain est préparé en couchant des sardines fraîches dans un tajine avec des épices marocaines telles que le cumin, le paprika, l'ail, des tomates, des oignons, parfois des olives et des citrons confits. Le tout est cuit lentement pour permettre aux saveurs de se mélanger."
     },
     "bissara" :{
         "nom" : "Paysser",
-        "image" : "./donnee_react/repas_tanger/bissara.jpg",
+        "image" : "../../donnee_react/repas_tanger/bissara.jpg",
         "ingredient" : "Le paysser est un plat typique de la région, composé principalement de viande hachée, d'oignons, de poivrons, de tomates et d'épices, servi généralement avec du pain croustillant pour absorber les saveurs délicates de ce plat." 
     },
     "the" :{
         "nom" : "Thé à la menthe",
-        "image" : "./donnee_react/repas_tanger/the.jfif",
+        "image" : "../../donnee_react/repas_tanger/the.jfif",
         "ingredient" : "Pour préparer ce thé emblématique, il vous faut du thé vert de qualité, de la menthe fraîche, du sucre et de l'eau bouillante. Le mélange est servi dans de petits verres à thé pour une expérience rafraîchissante."
     },
     "bocadios" :{
         "nom" : "Bocadios",
-        "image" : "./donnee_react/repas_tanger/bocadios.jpg",
+        "image" : "../../donnee_react/repas_tanger/bocadios.jpg",
         "ingredient" : "Les pocadios sont des biscuits sablés fourrés de confiture ou de pâte à tartiner, souvent saupoudrés de sucre glace pour une touche sucrée et délicieuse."
     }
 }

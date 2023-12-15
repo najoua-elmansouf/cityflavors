@@ -1,5 +1,6 @@
 import { useParams } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
+import '../style/pagerepas.css'
 
 
 const Pagerepas = () => {
@@ -35,7 +36,9 @@ const Pagerepas = () => {
       <div className = 'repasContainer'>
         <div className = 'repasSubContainer'>
         <img src ={image}/>
+        <div className = 'texte'>
         <p><h1>{repas}</h1>{ingrd}</p>
+        </div>
         </div>
     </div>
     );

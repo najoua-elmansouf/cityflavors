@@ -16,12 +16,10 @@ function App() {
         <Route path="/Marrackech" element={<Pageville ville='marrackech'/>} />
         <Route path="/Rabat" element={<Pageville ville='rabat'/>} />
         <Route path="/Tanger" element={<Pageville ville='tanger'/>} />
-        <Route path="/recipe/:name" element={<Pagerepas/>} />
+        <Route path="/recipe/:ville/:name" element={<Pagerepas />} />
       </Routes>
     <Footer/>
-    
-
-    
+  
     </>
   );
 }
