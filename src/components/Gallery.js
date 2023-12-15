@@ -1,13 +1,16 @@
+// Gallery.js
 import React, { useState, useEffect } from 'react';
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
+import { Link } from 'react-router-dom';
 import '../style/gallery.css';
 
 const Gallery = ({ ville }) => {
   const [recipeData, setRecipeData] = useState({});
   const [images, setImages] = useState([]);
+  const [recipeNames, setRecipeNames] = useState([]);
+  const [hoveredRecipe, setHoveredRecipe] = useState(null);
 
   useEffect(() => {
-    // Charger les données depuis le fichier JSON en fonction de la ville
     fetch(`../../json/${ville}.json`)
       .then((response) => {
         if (!response.ok) {
@@ -17,10 +20,11 @@ const Gallery = ({ ville }) => {
       })
       .then((data) => {
         setRecipeData(data);
+        const names = Object.keys(data);
+        setRecipeNames(names);
 
-        // Charger les URLs des images
-        const imagePromises = Object.values(data).map((recipe) =>
-          fetch(recipe.image).then((response) =>
+        const imagePromises = names.map((name) =>
+          fetch(data[name].image).then((response) =>
             response.ok ? response.blob() : null,
           ),
         );
@@ -38,17 +42,28 @@ const Gallery = ({ ville }) => {
 
   return (
     <div>
-      <ResponsiveMasonry
-        columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
-      >
-        <Masonry>
+      <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
+        <Masonry gutter="10px">
           {images.map((image, i) => (
-            <img
+            <div
               key={i}
-              src={image}
-              style={{ width: '100%', display: 'block' }}
-              alt=""
-            />
+              className="image-container"
+              onMouseEnter={() => setHoveredRecipe(recipeData[recipeNames[i]])}
+              onMouseLeave={() => setHoveredRecipe(null)}
+            >
+              <img
+                src={image}
+                style={{ width: '100%', display: 'block' }}
+                alt=""
+              />
+              {hoveredRecipe === recipeData[recipeNames[i]] && (
+                <div className="image-overlay">
+                  <Link to={`/recipe/${ville}/${recipeNames[i]}`}>
+                    <h2>{recipeNames[i]}</h2>
+                  </Link>
+                </div>
+              )}
+            </div>
           ))}
         </Masonry>
       </ResponsiveMasonry>
