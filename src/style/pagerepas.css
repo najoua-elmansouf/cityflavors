@@ -31,3 +31,7 @@
     display :flex;
     align-items: center;
   }
+  .carte{
+    display: flex;
+    align-items: center;
+  }

@@ -8,10 +8,10 @@ const Acceuil = () => {
     <>
       <Slider />
       <div className="header" style={{color:'#990909',backgroundColor:'whitesmoke'}}>Découvrez nos villes</div>
-      <Culture ville="casablanca"/>
-      <Culture ville="marrackech"/>
-      <Culture ville="rabat"/>
-      <Culture ville="tanger"/>
+      <Culture ville="casablanca" />
+      <Culture ville="marrackech" />
+      <Culture ville="rabat" />
+      <Culture ville="tanger" />
     </>
   )
 }
