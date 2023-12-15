@@ -1,8 +1,13 @@
-.redBar {
-    border: none;
-    background : red;
-    height: 1px; 
-    width :60%;/* Ajuste cette valeur selon l'espacement que tu veux avoir entre les éléments */
-    margin: 20px auto; /* Ajuste cette valeur pour contrôler l'espacement autour de la barre */
-  }
+.header{
+  display: flex;
+  align-items: center;
+  background-color: whitesmoke;
+  color : #990909;
+  justify-content: center;
+  height : 20vh;
+  font-size:x-large;
+  font-weight: bold;
+  box-shadow: 0 4px 8px whitesmoke; /* syntax: box-shadow: h-offset v-offset blur spread color; */
+  transition: transform 0.3s ease-in-out;
+}
   
