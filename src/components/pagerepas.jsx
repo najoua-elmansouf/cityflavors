@@ -13,7 +13,7 @@ const Pagerepas = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`../../json/${ville}.json`);
+        const response = await fetch(../../json/${ville}.json);
         if (!response.ok) {
           throw new Error('Network response was not ok.');
         }
