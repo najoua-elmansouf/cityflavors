@@ -3,9 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Footer() {
   return (
-    <footer className="text-white text-center py-3" style={{background : 'green'}}>
+    <footer className="text-white text-center py-3" style={{background : 'whitesmoke'}}>
       <div className="container">
-        <p>&copy; 2023 City Flavors</p>
+        <p style={{color :'#990909'}}>&copy; 2023 City Flavors</p>
       </div>
     </footer>
   )
