@@ -1,6 +1,6 @@
 .cultureContainer{
     padding : 6%;
-    box-shadow: 0 4px 8px whitesmoke; /* syntax: box-shadow: h-offset v-offset blur spread color; */
+    box-shadow: 0 4px 8px whitesmoke; 
     transition: transform 0.3s ease-in-out;
     background-color: rgba(92, 149, 92, 0.532);
 }
@@ -9,7 +9,6 @@
     display: flex;
     gap:10%;
     background-color: rgba(92, 149, 92, 0.532);
-    
     border-radius: 16px;
 }
 
@@ -27,3 +26,17 @@
   .cultureSubContainer p h1{
     text-align: center;
   }
+@media screen and (max-width: 768px){
+    .cultureSubContainer{
+        padding : 5%;
+        display: flex;
+        flex-direction: column;
+        gap:10%;
+        background-color: rgba(92, 149, 92, 0.532);
+        border-radius: 16px;
+    }
+    .cultureSubContainer img{
+        width : 100%;
+        border-radius: 16px;
+    }
+}
