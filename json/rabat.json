@@ -1,0 +1,32 @@
+{
+    "lmdrbal" : {
+        "nom":"Lmdrbal",
+        "image":"../../donnee_react/repas_rabat/lmdarbal.jpg",
+        "ingredient":"Le Lmdrbal, une délicieuse spécialité marocaine, marie habilement des ingrédients simples pour créer une expérience gustative authentique. Ce plat, souvent apprécié au petit-déjeuner, associe la semoule d'orge à l'huile d'olive, aux olives, et aux épices traditionnelles telles que le cumin et le paprika. Des œufs sont ajoutés pour apporter une texture crémeuse, tandis que des tomates et des poivrons confèrent une fraîcheur vibrante. Cuit lentement jusqu'à ce que les saveurs se fondent harmonieusement, le Lmdrbal incarne la simplicité élégante de la cuisine marocaine. Un régal matinal qui capture l'essence des saveurs du Maroc. Bon appétit !"
+    },
+    "pilpil" : {
+        "nom":"Pilpil",
+        "image":"../../donnee_react/repas_rabat/pilpil.jpeg",
+        "ingredient":"Le Pilpal, un régal de la cuisine marocaine, célèbre la fraîcheur des crevettes mariées à la richesse des tomates. Préparé avec des crevettes succulentes, des tomates fraîches, de l'ail, de l'oignon, et une palette d'épices, dont le cumin et le paprika, ce plat incarne une explosion de saveurs méditerranéennes. La cuisson experte permet aux crevettes de s'imprégner de la sauce tomate aromatique, créant une harmonie délectable de textures et de goûts. Servi généreusement avec du pain, le Pilpal offre une expérience gastronomique mémorable, incarnant l'art subtil de la cuisine marocaine. Bon appétit !"
+    },
+    "passtilla" : {
+        "nom":"Passtilla",
+        "image":"../../donnee_react/repas_rabat/passtilla.jpg",
+        "ingredient":"La Pastilla salée, un trésor de la cuisine marocaine, se compose d'une délicate pâte feuilletée enrobant une farce somptueuse. Les ingrédients classiques de la Pastilla salée incluent des morceaux de viande de poulet ou de pigeon, cuits avec des oignons caramélisés, des amandes grillées, des œufs brouillés, et une palette d'épices telle que la cannelle et le safran. L'ensemble est enveloppé dans des feuilles de brick ou de la pâte filo, puis cuit au four jusqu'à l'obtention d'une croûte dorée et croustillante. Juste avant de servir, la Pastilla est souvent saupoudrée de sucre glace et de cannelle, créant ainsi une juxtaposition sublime entre le salé et le sucré. Un chef-d'œuvre de la cuisine marocaine qui allie textures et saveurs pour une expérience gastronomique inoubliable. Bon appétit !"
+    },
+    "cousousoeufamande" : {
+        "nom":"Couscous Oeufs et amandes",
+        "image":"../../donnee_react/repas_rabat/cousousoeufamande.jpg",
+        "ingredient":"Le Couscous aux œufs et aux amandes, une délicatesse marocaine, se compose d'une base de couscous moelleux agrémenté d'une garniture raffinée. Les œufs, cuits avec soin, sont souvent pochés ou légèrement frits pour conserver leur onctuosité. Les amandes, grillées pour intensifier leur saveur, apportent une note croquante à l'ensemble. Les deux sont délicatement disposés sur le couscous, créant une combinaison harmonieuse de textures et de saveurs. Une touche d'épices telles que la cannelle ou le cumin peut être ajoutée pour rehausser la profondeur des saveurs. Servi généralement lors de festivités ou d'occasions spéciales, ce plat incarne l'élégance de la cuisine marocaine. Bon appétit !"
+    },
+    "jaouhara" : {
+        "nom":"Jaouhara",
+        "image":"../../donnee_react/repas_rabat/jaouhara.jpeg",
+        "ingredient":"Les pâtisseries à base d'amandes sont une délectation dans la cuisine marocaine. Ces friandises comprennent généralement une pâte à base de farine, de beurre et d'eau de fleur d'oranger. La garniture, une mixture d'amandes finement moulues, de sucre, et parfois de cannelle, est enveloppée dans la pâte et découpée dans des formes variées. Après la cuisson, les pâtisseries sont généreusement saupoudrées de sucre glace. La combinaison de la richesse des amandes, de la douceur sucrée et de la délicatesse de la pâte offre une expérience sucrée raffinée, caractéristique de la pâtisserie marocaine. Bon appétit !"
+    },
+    "briwat" : {
+        "nom":"Briwat",
+        "image":"../../donnee_react/repas_rabat/briwat.jpg",
+        "ingredient":"Les Briwats salés, une délicatesse dans la cuisine marocaine, présentent une pâte fine et feuilletée enveloppant une garniture savoureuse. Les ingrédients de la farce varient, mais elle inclut souvent de la viande hachée, des oignons finement coupés, des herbes fraîches comme le persil et parfois de la coriandre, ainsi que des épices telles que le cumin et le paprika. Le mélange est soigneusement plié en triangles ou d'autres formes avant d'être frit ou cuit au four pour obtenir une texture croustillante. Les Briwats salés peuvent être servis en apéritif ou en accompagnement, offrant une fusion exquise de saveurs méditerranéennes. Bon appétit !"
+    }
+}

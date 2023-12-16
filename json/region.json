@@ -1,0 +1,22 @@
+{
+    "casablanca":{
+        "titre" :"Casablanca",
+        "image" : "../../donnee_react/images_region/casablanca.jpg",
+        "description" : " Si vous cherchez une destination où l'authenticité et la modernité se rencontrent harmonieusement, Casablanca est l'endroit idéal à découvrir. Plongez dans une expérience culturelle vibrante où la musique envoûtante, la délicieuse cuisine marocaine et les marchés colorés vous attendent. Explorez les ruelles animées pour découvrir l'artisanat local et laissez-vous émerveiller par l'architecture alliant tradition et contemporanéité. De la majestueuse mosquée Hassan II aux festivités chaleureuses, Casablanca promet une aventure captivante où chaque coin de rue raconte une histoire. Rejoignez-nous pour une immersion inoubliable dans le folklore et la culture envoûtants de cette métropole marocaine!"
+    },
+    "marrackech":{
+        "titre" :"Marrackech",
+        "image" : "../../donnee_react/images_region/marrackech.png",
+        "description": "À la recherche d'une destination où l'histoire et la modernité se conjuguent harmonieusement ? Marrakech vous ouvre ses portes. Plongez dans une expérience envoûtante, entre les mélopées enivrantes des musiciens de rue, les étals colorés des souks et l'arôme enivrant des épices. Explorez les ruelles du souk pour découvrir l'artisanat traditionnel, des tapis berbères aux poteries chatoyantes. L'architecture majestueuse des palais et la place Jemaa el-Fna, théâtre vivant de la ville, vous captiveront. De la médina aux jardins luxuriants, chaque recoin de Marrakech dévoile un pan de son histoire. Joignez-vous à nous pour une immersion inoubliable dans la culture envoûtante de cette ville marocaine !"
+    },
+    "rabat":{
+        "titre" :"Rabat",
+        "image" : "../../donnee_react/images_region/rabat.jpg",
+        "description": "Plongez au cœur de Rabat, où l'histoire et la modernité se rencontrent dans une harmonie captivante. Découvrez une ville côtière émaillée de souks animés, offrant une immersion dans l'âme marocaine. Explorez les ruelles de la médina pour découvrir l'artisanat local, des poteries traditionnelles aux bijoux en argent. Les magnifiques jardins, les remparts millénaires et les monuments emblématiques comme la Kasbah des Oudayas vous transporteront à travers les époques. Avec ses plages bordées par l'océan Atlantique et ses avenues animées, Rabat révèle une facette unique de la culture marocaine à ne pas manquer !"
+    },
+    "tanger":{
+        "titre" :"Tanger",
+        "image" : "../../donnee_react/images_region/tanger.jpg",
+        "description" : "Entrez dans l'effervescence de Tanger, où se mêlent l'histoire, la diversité culturelle et la modernité. Imprégnez-vous de l'atmosphère cosmopolite de cette ville portuaire, où se côtoient influences européennes et marocaines. Explorez la médina labyrinthique pour découvrir ses bazars animés, puis laissez-vous séduire par la beauté du détroit de Gibraltar depuis les hauteurs de la Kasbah. Plages pittoresques, cafés animés et marchés colorés ajoutent à l'ambiance envoûtante de Tanger, une ville au croisement des cultures et des traditions. Une expérience pleine de charme vous attend dans cette perle du nord du Maroc !"
+    }
+}
